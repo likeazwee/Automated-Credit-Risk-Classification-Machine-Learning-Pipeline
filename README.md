@@ -48,7 +48,7 @@ Proyek ini menerapkan 6 tahapan *End-to-End ML Pipeline* standar industri:
 ## 📁 Struktur Repositori
 
 ```
-├── Intro_to_ML_Credit_Risk.ipynb # Jupyter / Google Colab Notebook (Kode Utama)
+├── ML_Credit_Risk.ipynb # Jupyter / Google Colab Notebook (Kode Utama)
 ├── credit_risk_dataset.csv       # Dataset mentah nasabah (CSV)
 ├── credit_risk_model.pkl         # Model ML terpisah hasil ekspor (Random Forest)
 ├── scaler.pkl                    # File scaler fitur (StandardScaler)
@@ -59,7 +59,7 @@ Proyek ini menerapkan 6 tahapan *End-to-End ML Pipeline* standar industri:
 
 ## 🚀 Cara Menjalankan di Google Colab
 
-1. Unduh file `Intro_to_ML_Credit_Risk.ipynb` dari repositori ini atau buat notebook baru di [Google Colab](https://colab.research.google.com/).
+1. Unduh file `ML_Credit_Risk.ipynb` dari repositori ini atau buat notebook baru di [Google Colab](https://colab.research.google.com/).
 2. Jalankan sel (*cells*) kode secara berurutan dari **Sel 1 hingga Sel 7**.
 3. Sel 7 akan otomatis memuat dan mengunduh file dataset (`credit_risk_dataset.csv`), model terlatih (`credit_risk_model.pkl`), dan file *scaler* ke komputer Anda.
 
